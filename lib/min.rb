@@ -12,9 +12,10 @@ def get_the_min(groceries)
   #code your solution here!
   groceries.each do |fruit,list|
     if fruit == :vegetable
-       list.each {|items| items == "broccoli"}
+       list.each do |items| 
       #binding.pry
-        
+        items == "broccoli"
+       end
      end
    end
 end
