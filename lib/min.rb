@@ -18,4 +18,5 @@ def get_the_min(groceries)
        end
      end
    end
+   items
 end
