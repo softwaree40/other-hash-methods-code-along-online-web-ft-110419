@@ -14,6 +14,7 @@ def get_the_min(groceries)
     if fruit == :vegetable
        list.each do |items|
       binding.pry
+        end
      end
    end
 end
